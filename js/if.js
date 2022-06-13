@@ -15,3 +15,15 @@ console.log(message);
 if (1 === "1") {
     console.log('истина');
 }
+let answear = 50;
+switch (answear) {
+    case 49:
+        console.log('Wrong');
+        break;
+    case 100:
+        console.log("Hello");
+        break;
+    case 50:
+        console.log("Верно");
+        break;
+}
